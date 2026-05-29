@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Dati personali – non caricare file di input (PDF) né di output (CSV/JSON)
+data/input/*
+!data/input/.gitkeep
+data/output/*
+!data/output/.gitkeep

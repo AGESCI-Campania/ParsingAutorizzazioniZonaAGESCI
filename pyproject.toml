@@ -1,0 +1,25 @@
+[dependency-groups]
+dev = ["pytest>=8", "pytest-cov>=6"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "autorizzazioni-agesci"
+version = "0.1.0"
+description = "Parser per le autorizzazioni AGESCI dei gruppi scout"
+requires-python = ">=3.10"
+dependencies = [
+    "pdfplumber>=0.11",
+]
+
+[project.scripts]
+autorizzazioni = "autorizzazioni_agesci.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/autorizzazioni_agesci"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
