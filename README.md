@@ -33,7 +33,7 @@ uv sync
 ### Come libreria installabile via pip
 
 ```bash
-pip install git+https://github.com/…/autorizzazioni.git
+pip install git+https://github.com/AGESCI-Campania/ParsingAutorizzazioniZonaAGESCI.git@v1.0.1
 # oppure, in locale:
 pip install .
 ```
