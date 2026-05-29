@@ -7,7 +7,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "autorizzazioni-agesci"
-version = "1.0.0"
+version = "1.0.1"
 description = "Parser per le autorizzazioni AGESCI dei gruppi scout"
 license = { file = "LICENSE" }
 requires-python = ">=3.10"
