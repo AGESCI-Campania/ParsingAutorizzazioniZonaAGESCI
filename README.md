@@ -1,5 +1,12 @@
 # autorizzazioni-agesci
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![uv](https://img.shields.io/badge/uv-package%20manager-DE5FE9?logo=astral&logoColor=white)](https://docs.astral.sh/uv/)
+[![mise](https://img.shields.io/badge/mise-version%20manager-48B3A4)](https://mise.jdx.dev/)
+[![pdfplumber](https://img.shields.io/badge/pdfplumber-PDF%20parsing-orange)](https://github.com/jsvine/pdfplumber)
+[![pytest](https://img.shields.io/badge/tested%20with-pytest-0A9EDC?logo=pytest&logoColor=white)](https://pytest.org/)
+
 Parser per le autorizzazioni annuali AGESCI dei gruppi scout. Legge i PDF ufficiali del modello "Autorizzazione Unità" ed estrae i dati di ogni capo (unità, branca, genere, funzione, tipo) in un file CSV o JSON.
 
 ## Requisiti
